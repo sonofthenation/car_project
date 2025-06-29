@@ -5,7 +5,7 @@ def get_connection():
     return psycopg2.connect(
         dbname="car_project",
         user="postgres",
-        password="just0",
+        password="YOUR_PASSWORD",
         host="localhost",
         port="5432"
     )
