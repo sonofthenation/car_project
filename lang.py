@@ -95,6 +95,10 @@ text={
         "uz": "Barcha jadvallar yaratildi!",
         "en": "All tables have been created!"
     },
+    "functions_created": {
+        "uz": "Barcha funksiyalar yaratildi!",
+        "en": "All functions have been created!"
+    },
     "admin_added": {
         "uz": " qo'shildi",
         "en": " has been added"

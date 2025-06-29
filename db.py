@@ -1,4 +1,5 @@
 import psycopg2
+from lang import tr
 
 def get_connection():
     return psycopg2.connect(
@@ -47,7 +48,7 @@ def create_tables():
     """)
 
     connection.commit()
-    print("Barcha jadvallar yaratildi!")
+    print(tr("tables_created"))
     connection.close()
 
 
@@ -108,5 +109,5 @@ alter function monthly_na(integer, integer, integer) owner to postgres;
         """)
 
     connection.commit()
-    print("Success")
+    print(tr("functions_created"))
     connection.close()
